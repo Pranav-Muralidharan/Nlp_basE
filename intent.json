@@ -1,0 +1,26 @@
+{"intents": [
+    {"Tag": "intro",
+    "patterns": ["hey", "hello", "good day", "hi", "hlo"],
+    "responses": ["hi", "hey friend", "i am here for you"]
+    },
+    {"Tag": "personal",
+    "patterns": ["who are you", "your name", "what is your name"],
+    "responses": ["Ed", "my name is Ed"]
+    },
+    {"Tag": "perpose",
+    "patterns": ["what you do", "what is your perpose", "what can i ask about"],
+    "responses": ["To talk about the book God of small things"]
+    },    
+    {"Tag": "author",
+    "patterns": ["who wrote this", "writer name", "who wrote the book God of small things "],
+    "responses": ["Arundathi roy"]
+    },
+    {"Tag": "review",
+    "patterns": ["is it good", "review", "how is this book"],
+    "responses": ["4.9 out of 5", "excelent"]
+    },
+    {"Tag": "award",
+    "patterns": ["is it a worth", "why is it so famous","got any awards"],
+    "responses": ["1997 booker prize"]
+    }
+]}
